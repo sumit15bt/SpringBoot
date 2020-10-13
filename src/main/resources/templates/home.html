@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME</title>
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link th:href="@{/css/homeStyle.css}" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="menu-bar">
+    <ul>
+        <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#"><i class="fa fa-home"></i>Schedule Summary</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Supervior</a></li>
+                    <li><a href="#">Agent</a></li>
+                    <li><a href="#">Both</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">My Profile</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Personal</a></li>
+                    <li><a href="#">Professional</a></li>
+
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">Requests</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"><a href="#">Time Off</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Deatil</a></li>
+                                <li><a href="#">Request</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hover-me"><a href="#">Swift Swap</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Deatil</a></li>
+                                <li><a href="#">Request</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">Time Off calendar</a></li>
+        <li><a href="#">Current Time Of Detail</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"><a href="#">Deatil</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Social Media</a></li>
+                                <li><a href="#">Voice</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hover-me"><a href="#">Request</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Social Media</a></li>
+                                <li><a href="#">Voice</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div>
+    <img th:src="@{/images/bkImage.jpeg}"/>
+</div>
+</body>
+</html>
